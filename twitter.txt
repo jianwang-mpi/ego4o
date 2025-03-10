@@ -1,0 +1,9 @@
+🚀 Excited to share our #CVPR2025 paper Ego4o!
+
+We introduce a framework for:
+✅ Simultaneous motion capture & motion description generation from multi-modal egocentric inputs
+✅ Flexible input modalities, handling egocentric images, text, and arbitrary IMU combinations
+
+🔗 Project page: https://jianwang-mpi.github.io/ego4o/
+
+#CVPR #Egocentric #LLM
