@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<!-- Head -->
+
+<head>
+    <title>Ego4o: Egocentric Human Motion Capture and Understanding from Multi-Modal Input</title>
+    <link rel="icon" href="images/logos/bobo.png">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/collapse.css"/>
+
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style-xlarge.css"/>
+    </noscript>
+    
+</head>
+
+<!-- Body -->
+
+<body class="landing">
+
+<!-- Header -->
+
+<header id="header">
+    <!--    <div class="column has-text-centered" style="text-align:center">-->
+    <!--        <ul>-->
+    <!--            <li style="margin-top: 1%;"><a href="https://www.mpi-inf.mpg.de/home/"> <img src="images/logos/mpi.png"-->
+    <!--                                                                                         height="50px" width="auto"/>-->
+    <!--            </a></li>-->
+    <!--            <li style="margin-top: 1%;"><a href="https://saarland-informatics-campus.de/"> <img-->
+    <!--                    src="images/logos/sic-logo.webp" height="50px" width="auto"/> </a></li>-->
+    <!--            <li style="margin-top: 0.5%;"><a href="https://www.via-center.science/"> <img-->
+    <!--                    src="images/logos/via_logo.png" height="70px" width="auto"/> </a></li>-->
+    <!--        </ul>-->
+    <!--    </div>-->
+
+    <div class="column" style="text-align:center">
+        <a href="http://www.mpi-inf.mpg.de/" target="_blank"><img style="margin-top: 1%; margin-left: 1%;"
+                                                                  src="images/logos/mpi.png" height="45"></a>
+        <a href="https://saarland-informatics-campus.de/" target="_blank"><img style="margin-top: 1%; margin-left: 2%;"
+                                                                               src="images/logos/sic-logo.webp"
+                                                                               height="50"></a>
+        <a href="https://saarland-informatics-campus.de/" target="_blank"><img style="margin-top: 1%; margin-left: 2%;"
+                                                                               src="images/logos/via_logo.png"
+                                                                               height="55"></a>
+        <a href="https://research.google/" target="_blank"><img style="margin-top: 1%; margin-left: 2%"
+                                                                src="images/logos/Google_2015_logo.svg.png" height="50"></a>
+        <a href="https://research.google/" target="_blank"><img style="margin-top: 1%; margin-left: 2%"
+                                                                src="images/logos/upenn.png" height="50"></a>
+    </div>
+</header>
+
+<!-- Main -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<section id="bannel">
+    <div class="container">
+
+        <h2>Ego4o: Egocentric Human Motion Capture and Understanding from Multi-Modal Input</h2> <br>
+
+        <br>
+        <div class="column has-text-centered">
+            <h4><a href="https://jianwang-mpi.github.io/" target="_blank">Jian Wang</a><sup>1,2</sup>&#160;&#160;</h4>
+            <h4><a href="https://rishabhdabral.github.io/" target="_blank">Rishabh Dabral</a><sup>1,2</sup>&#160;&#160;</h4>
+            <h4><a href="https://people.mpi-inf.mpg.de/~dluvizon/" target="_blank">Diogo Luvizon</a><sup>1,2</sup>&#160;&#160;</h4>
+            <h4><a href="https://zhec.github.io/" target="_blank">Zhe Cao</a><sup>3</sup>&#160;&#160;</h4>
+            <h4><a href="https://lingjie0206.github.io/" target="_blank">Lingjie Liu</a><sup>4</sup>&#160;&#160;
+            </h4>
+            <h4><a href="https://thabobeeler.com/" target="_blank">Thabo Beeler</a><sup>3</sup>&#160;&#160;
+            </h4>
+            <h4><a href="http://www.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a><sup>1,2</sup></h4>
+        </div>
+
+        <br>
+        <h4><sup>1</sup>Max Planck Institute for Informatics, Saarland Informatics Campus, </h4>
+        <h4><sup>2</sup>Saarbrücken Research Center for Visual Computing, Interaction and AI, </h4>
+        <h4><sup>3</sup>Google, <sup>4</sup>University of Pennsylvania</h4>
+        <p style="font-size:15px;">
+
+        <div class="column has-text-centered">
+            <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+						<a href="paper.pdf"
+                           class="external-link button is-normal is-rounded is-dark">
+						  <span class="icon">
+							  <i class="fas fa-file-pdf"></i>
+						  </span>
+						  <span>Paper</span>
+						</a>
+					  </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+						<a href="https://www.youtube.com/watch?v=z1zBv0gFGpo"
+                           class="external-link button is-normal is-rounded is-dark">
+						  <span class="icon">
+							  <i class="fas fa-video-camera"></i>
+						  </span>
+						  <span>Video</span>
+						</a>
+					  </span> -->
+                <!-- Code Link. -->
+                <!-- <span class="link-block">
+						<a href="https://github.com/jianwang-mpi/egowholemocap"
+                           class="external-link button is-normal is-rounded is-dark">
+						  <span class="icon">
+							  <i class="fa-brands fa-github"></i>
+						  </span>
+						  <span>Code (Demo Code)</span>
+						  </a>
+					  </span> -->
+                <!-- Dataset Link. -->
+                <!-- <span class="link-block">
+						<a href="https://nextcloud.mpi-klsb.mpg.de/index.php/s/oRHwkccnYcFiSMS"
+                           class="external-link button is-normal is-rounded is-dark">
+						  <span class="icon">
+							  <i class="fas fa-database"></i>
+						  </span>
+						  <span>EgoWholeBody Training Dataset</span>
+						  </a>
+                </span>
+                <span class="link-block">
+                    <a href="https://nextcloud.mpi-klsb.mpg.de/index.php/s/LmswNPJZmpxmbaC"
+                       class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                          <i class="fas fa-database"></i>
+                      </span>
+                      <span>EgoWholeBody Test Dataset</span>
+                      </a>
+                </span>
+                <span class="link-block">
+                    <a href="https://nextcloud.mpi-klsb.mpg.de/index.php/s/5ZjtY928LPj9ERz"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-database"></i>
+                    </span>
+                    <span>SceneEgo Hand Annotations</span>
+                    </a>
+                </span> -->
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+</section>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<div class="container">
+   <!-- <video width=100% height=auto controls autoplay muted loop>
+       <source src="videos/teaser.mp4" type="video/mp4">
+   </video> -->
+   <div class="publication-video">
+   <iframe  src="https://www.youtube.com/embed/vnsIoKFeGlw?si=uPkvQfU9Kl3-Tl34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>   
+</div>
+</br>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<section class="smallpadding">
+    <div class="container">
+        <h2 style="text-align:center">Abstract</h2>
+
+        <p>This work focuses on tracking and understanding human motion using consumer wearable devices, such as VR/AR headsets, smart glasses, cellphones, and smartwatches. These devices provide diverse, multi-modal sensor inputs, including egocentric images, and 1-3 sparse IMU sensors in varied combinations. Motion descriptions can also accompany these signals. The diverse input modalities and their intermittent availability pose challenges for consistent motion capture and understanding. 
+            
+        In this work, we present Ego4o (o for omni), a new framework for simultaneous human motion capture and understanding from multi-modal egocentric inputs. This method maintains performance with partial inputs while achieving better results when multiple modalities are combined. 
+        
+        First, the IMU sensor inputs, the optional egocentric image, and text description of human motion are encoded into the latent space of a motion VQ-VAE. 
+        
+        Next, the latent vectors are sent to the VQ-VAE decoder and optimized to track human motion. 
+        
+        When motion descriptions are unavailable, the latent vectors can be input into a multi-modal LLM to generate human motion descriptions, which can further enhance motion capture accuracy. 
+        
+        Quantitative and qualitative evaluations demonstrate the effectiveness of our method in predicting accurate human motion and high-quality motion descriptions.
+        </p>
+    </div>
+</section>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<section class="wrapper style2 special">
+    <div class="container" id="main_video">
+        <h2 style="text-align:center">Main Video</h2>
+        <div class="column has-text-centered"></div>
+        <!-- <video width="100%" height=auto controls>
+            <source src="videos/arxiv.mp4" type="video/mp4">
+        </video> -->
+        <div class="publication-video">
+            <iframe  src="https://www.youtube.com/embed/-70vBkDwItg?si=b37ZKiLgTW_62VdW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div> 
+    </div>
+    </div>
+</section>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- <section class="wrapper special">
+        <div class="container" id="method">
+            <h2 style="text-align:center">Method</h2>
+            <div class="column has-text-centered">
+                <img width="100%" src="images/method_crop.png">
+            </div>
+            <button type="button" class="collapsible">FisheyeViT</button>
+                <div class="content">
+                <p>
+                    We propose Fisheye VIT to address the Fisheye camera distortion issue. 
+                    We first project the fisheye image to a semi-sphere and undistort image patches from the fisheye image. 
+                    Then the undistorted patches are sent to the transformer network to get image features.
+                <br>
+                    Here we show the undistorted image patches and how the image patch moves on the fisheye camera. 
+                </p>
+                <video width=70% height=auto controls autoplay muted>
+                    <source src="videos/fisheyevit.mp4" type="video/mp4">
+                </video>
+            </div>
+            <button type="button" class="collapsible">Pose Regressor with Pixel-Aligned 3D Heatmap</button>
+                <div class="content">
+                <p>
+                    Next, we propose an egocentric pose regressor with a pixel-aligned 3D heatmap. 
+                    We first use deconvolutional layers to obtain the pixel-aligned 3D heatmap. 
+                    The voxels in the heatmap directly correspond to pixels in 2D features, subsequently linking to image patches in Fisheye VIT. 
+                    Joint positions from the pixel-aligned 3D heatmap are finally transformed with the fisheye camera model to obtain the 3D body poses.
+                </p>
+                <div class="column has-text-centered">
+                    <img width="70%" src="images/pixel_aligned_heatmap.png">
+                </div>
+            </div>
+            <button type="button" class="collapsible">Diffusion-Based Motion Refinement</button>
+                <div class="content">
+                    <p>
+                        To overcome the challenges of self-occlusion, we propose a diffusion-based motion refinement method. 
+                        We first train a diffusion model to learn the whole-body motion prior. 
+                        Then, we extract the joint uncertainties from the pixel-aligned 3D heatmap and use them to guide the refinement of the whole-body motion. 
+                        Our whole-body motion diffusion model refines joints with high uncertainty by conditioning on joints with low uncertainty. 
+                        <br>
+                        Here we show the example motion sequences unconditionally generated from the diffusion-based whole-body motion prior.
+                    </p>
+                    <video width=70% height=auto controls autoplay muted>
+                        <source src="videos/diffusion.mp4" type="video/mp4">
+                    </video>
+                </div>
+            <button type="button" class="collapsible">EgoWholeBody Dataset</button>
+                <div class="content">
+                <p>
+                    In response to the absence of egocentric whole-body motion capture datasets, we present EgoWholeBody, 
+                    a new large-scale synthetic dataset containing various whole-body motions. Here we show several examples.
+                </p>
+                <video width=70%  height=auto controls autoplay muted>
+                    <source src="videos/dataset.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+       
+</section> -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- <section class="wrapper style2 special">
+        <div class="container">
+            <h2 style="text-align:center">Comparisons: Body Motion</h2>
+            <div class="column has-text-centered"></div>
+            <video width=100% height=auto controls>
+                <source src="videos/comparison_body.mp4" type="video/mp4">
+            </video>
+        </div>
+</section>
+
+<section class="wrapper special">
+    <div class="container">
+        <h2 style="text-align:center">Comparisons: Hand Motion</h2>
+        <div class="column has-text-centered"></div>
+        <video width=100% height=auto controls>
+            <source src="videos/comparison_hand.mp4" type="video/mp4">
+        </video>
+    </div>
+</section> -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- <section class="wrapper style2">
+    <div class="container" style="text-align: justify;">
+        <h2 style="text-align:center">Citation</h2>
+        <div class="section bibtex">
+						<pre>
+@article{wang2023egocentric,
+    title={Egocentric Whole-Body Motion Capture with FisheyeViT and Diffusion-Based Motion Refinement},
+    author={Wang, Jian and Cao, Zhe and Luvizon, Diogo and Liu, Lingjie and Sarkar, Kripasindhu and Tang, Danhang and Beeler, Thabo and Theobalt, Christian},
+    journal={arXiv preprint arXiv:2311.16495},
+    year={2023}
+}</pre>
+        </div>
+    </div>
+</section> -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- Footer -->
+
+<footer id="footer">
+    <div class="container" style="width:40%">
+        <ul class="copyright">
+            <li>&copy; Wanyue Zhang</li>
+            <li><a href="https://imprint.mpi-klsb.mpg.de/inf/vcai.mpi-inf.mpg.de/">Imprint</a></li>
+            <li><a href="https://data-protection.mpi-klsb.mpg.de/inf/vcai.mpi-inf.mpg.de?lang=en">Data Protection</a>
+            </li>
+            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>

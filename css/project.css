@@ -1,0 +1,6 @@
+.section { margin: 2em 2em 0.5em 2em; line-height: 130%; }
+.section h2 { margin-top: 0.5em; margin-bottom: 0.2em; }
+
+/* Logo section. */
+.logos { margin: 1.5em 0; text-align: center; margin-top:5px; margin-bottom:10px; }
+.logos img { vertical-align:top; margin:0 1.25em; border:0; }
